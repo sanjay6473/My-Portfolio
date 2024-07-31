@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ---------------nav--------------- -->
+    <header id="header1">
+      <a href="#"></a>
+      <nav>
+        <div class="left">Sanjay's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#header1">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#skill23">Skill</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- -----------------main-------------- -->
+    <main>
+      <section class="firstSec">
+        <div class="leftSec">
+          <div class="name">
+            Hi, My name is <span class="purple"> Sanjay </span>
+          </div>
+          <div class="passion">and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSec">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+    </main>
+    <!-----------------about----------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="bg1.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h2>About <span> Me</span></h2>
+            <p>
+              I am a skilled web designer. My passion lies in creating
+              captivating website designs and implementing them through frontend
+              development. I take pride in staying up-to-date with current
+              design trends and leveraging my creativity to produce visually
+              appealing and user-friendly websites.I believe that a
+              well-designed website should not only look visually appealing but
+              also provide a smooth and enjoyable interaction for visitors...
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing web interfaces</li>
+                <li><span>Web Developement</span><br />Web app developement</li>
+                <li>
+                  <span>App Developement</span><br />Building Abdroid/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>Year: 2021</span><br />Madhyamik</li>
+                <li><span>Year: 2023</span><br />Higher Secondary</li>
+                <li>
+                  <span>Year: 2023 - 2027</span><br />B.tech in Computer Science
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <!-- ---------------------service--------------- -->
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My <span> Services</span></h1>
+        <div class="services-list">
+          <div class="one">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis nostrum nesciunt ut aut nulla laboriosam vero ducimus
+              officiis ipsum blanditiis soluta optio veritatis iste voluptate
+              saepe ab, magni voluptates quos?
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis nostrum nesciunt ut aut nulla laboriosam vero ducimus
+              officiis ipsum blanditiis soluta optio veritatis iste voluptate
+              saepe ab, magni voluptates quos?
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+          <div class="three">
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis nostrum nesciunt ut aut nulla laboriosam vero ducimus
+              officiis ipsum blanditiis soluta optio veritatis iste voluptate
+              saepe ab, magni voluptates quos?
+            </p>
+            <a href="#" class="read">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <!-- -----------------skills--------- -->
+    <h1 class="sub-title">My <span> Skills</span></h1>
+    <section id="skill23">
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="technical-bars">
+          <div class="bar">
+            <i style="color: #c95d2e" class="fa-brands fa-html5"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #147bbc" class="fa-brands fa-css3-alt"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #b0bc1e" class="fa-brands fa-js"></i>
+            <div class="info">
+              <span>Javascript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #69bcbc" class="fa-brands fa-react"></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i style="color: #c32ec9" class="fa-brands fa-python"></i>
+            <div class="info">
+              <span>Python</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">60%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">85%</div>
+            <div class="text">Team Work</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="act" />
+    <!-- ----------------------portfolio------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My <span> Projects</span></h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work-1.png">
+            <div class="layer" id="one">
+              <h3>Tic-Tac-Toe</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.voluptatibus esse cupiditate rerum laborum totam Esse.</p>
+              <a href="file:///C:/Users/user/OneDrive/Desktop/Tic-Tac-Toe/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-2.png">
+            <div class="layer">
+              <h3>Curency Converter</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.voluptatibus esse cupiditate rerum laborum totam Esse.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work side">
+            <img src="work-3.png">
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.voluptatibus esse cupiditate rerum laborum totam Esse.</p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="button">See More</a>
+      </div>
+    </div>
+    <hr class="act" />
+<!-- ---------------------contact----------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact <span> Me</span></h1>
+        <p><i class="fa-solid fa-paper-plane"></i>sanjaybera11102004@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i>+91 9883944820</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100074297335598&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/sanjaybera_988?t=csoSX7JYZLEJpQGWNQ_qVA&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/mr_sanjay_bera?igsh=MTFycnVhZnUxbjA2YQ=="><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/sanjay-bera-74a9a3284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="my-cv.pdf" download class="button btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="button btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+ <div class="copyright">Copyright<i class="fa-regular fa-copyright"></i>Sanjay. Made with by Easy</div>
+</footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzJQZ4QYq0usqJQOsH5d2eWCkBKsgXXAp0lL_qIy9644MvEaDklK5js0hLrXsaWvAs-HQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
